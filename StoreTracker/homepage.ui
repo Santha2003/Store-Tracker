@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>homepage</class>
+ <widget class="QMainWindow" name="homepage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>517</width>
+    <height>358</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_purchase">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>120</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 127);</string>
+    </property>
+    <property name="text">
+     <string>product</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_sales">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>120</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 127);</string>
+    </property>
+    <property name="text">
+     <string>Sale</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_voucher">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>120</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 127);</string>
+    </property>
+    <property name="text">
+     <string>Purchase</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>517</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menusettings">
+    <property name="title">
+     <string>settings</string>
+    </property>
+    <addaction name="actionuser_Management"/>
+    <addaction name="actioncompanydetails"/>
+   </widget>
+   <widget class="QMenu" name="menuview">
+    <property name="title">
+     <string>view</string>
+    </property>
+    <addaction name="actionProducts"/>
+    <addaction name="actionCompany"/>
+    <addaction name="actionDaily_book"/>
+    <addaction name="actionCash_in"/>
+    <addaction name="actionCash_Out"/>
+   </widget>
+   <addaction name="menusettings"/>
+   <addaction name="menuview"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionuser_Management">
+   <property name="text">
+    <string>user Management</string>
+   </property>
+  </action>
+  <action name="actioncompanydetails">
+   <property name="text">
+    <string>companydetails</string>
+   </property>
+  </action>
+  <action name="actionProducts">
+   <property name="text">
+    <string>Products</string>
+   </property>
+  </action>
+  <action name="actionCompany">
+   <property name="text">
+    <string>Company</string>
+   </property>
+  </action>
+  <action name="actionDaily_book">
+   <property name="text">
+    <string>Daily book</string>
+   </property>
+  </action>
+  <action name="actionCash_in">
+   <property name="text">
+    <string>Cash in</string>
+   </property>
+  </action>
+  <action name="actionCash_Out">
+   <property name="text">
+    <string>Cash Out</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
